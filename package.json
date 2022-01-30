@@ -1,0 +1,20 @@
+{
+  "name": "statik-arb",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js",
+    "claim": "CLAIM=true node -r esm src/index.js"
+  },
+  "author": "ErbaZZ <weerawat.paw@gmail.com>",
+  "homepage": "https://github.com/ErbaZZ/wusd-arb#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "abi-decoder": "^2.4.0",
+    "axios": "^0.22.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "web3": "^1.6.0"
+  }
+}
